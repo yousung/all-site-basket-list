@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <title>모두의 장바구니</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="add-baskeet" class="alert alert-primary hide" role="alert">
+        등록되었습니다.
+      </div>
+      <div id="remove-baskeet" class="alert alert-danger hide" role="alert">
+        삭제되었습니다.
+      </div>
+
+      <div class="input-group mb-3 parent-input-group">
+        <input
+          id="item-name"
+          type="text"
+          class="form-control"
+          placeholder="상품명"
+          aria-label="상품명"
+          aria-describedby="input-name-btn"
+        />
+        <div class="input-group-append">
+          <button
+            class="btn btn-outline-secondary"
+            type="button"
+            id="input-name-btn"
+          >
+            등록
+          </button>
+        </div>
+      </div>
+
+      <div id="item-list"></div>
+    </div>
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/chrome-extension-async.js"></script>
+    <script src="js/script.js"></script>
+  </body>
+</html>
