@@ -18,7 +18,7 @@
 
 # TODO
 
-[:small-red-triangle:] 크롬확장도구 개발 방법 배우기<br>
+[X] 크롬확장도구 개발 방법 배우기<br>
 [ ] HTML,CSS작성<br>
 [ ] 로직구현<br>
 [ ] 완성<br>
